@@ -9,6 +9,11 @@
       "Description" : "Name of an existing EC2 KeyPair to enable SSH access to the instances",
       "Type" : "String"
     },
+    
+    "SubnetId" : {
+      "Description" : "Id of subnet to connect to",
+      "Type" : "String"
+    },
 
     "InstanceType" : {
       "Description" : "WebServer EC2 instance type",
